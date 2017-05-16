@@ -1,12 +1,12 @@
-GFXDATA    equ    $c00000
-GFXCTRL    equ    $c00004
+.set GFXDATA    ,    0x00c00000
+.set GFXCTRL    ,    0x00c00004
 
-JOY_UP     equ    $1
-JOY_DOWN   equ    $2
-JOY_LEFT   equ    $4
-JOY_RIGHT  equ    $8
-BUTTON_A   equ    $40
-BUTTON_B   equ    $10
-BUTTON_C   equ    $20
-BUTTON_S   equ    $80
+.set JOY_UP     ,    0x001
+.set JOY_DOWN   ,    0x002
+.set JOY_LEFT   ,    0x004
+.set JOY_RIGHT  ,    0x008
+.set BUTTON_A   ,    0x0040
+.set BUTTON_B   ,    0x0010
+.set BUTTON_C   ,    0x0020
+.set BUTTON_S   ,    0x0080
 

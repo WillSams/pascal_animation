@@ -1,4 +1,4 @@
-Pong by by Pascal Bosquet 
+NeoZee Color Animation Demo by by Pascal Bosquet 
 ====================================================================================
 Original code can be found here -> (http://www.pascalorama.com/megadrive-m68000-programming/)
 

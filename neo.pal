@@ -1,18 +1,18 @@
 
 pal:
-	dc.w $000
-	dc.w $026
-	dc.w $555
-	dc.w $cc0
-	dc.w $00e
-	dc.w $0ef
-	dc.w $aaa
-	dc.w $fff
-	dc.w $00e
-	dc.w $fff
-	dc.w $000
-	dc.w $000
-	dc.w $000
-	dc.w $000
-	dc.w $000
-	dc.w $000
+	dc.w 0x00000
+	dc.w 0x00026
+	dc.w 0x00555
+	dc.w 0x00cc0
+	dc.w 0x0000e
+	dc.w 0x000ef
+	dc.w 0x00aaa
+	dc.w 0x00fff
+	dc.w 0x0000e
+	dc.w 0x00fff
+	dc.w 0x00000
+	dc.w 0x00000
+	dc.w 0x00000
+	dc.w 0x00000
+	dc.w 0x00000
+	dc.w 0x00000
