@@ -10,7 +10,7 @@ LDFLAGS = -O1 -static -nostdlib
 
 OBJS 	=	neozeed.o 
 
-ROM 	= neozeed.
+ROM 	= neozeed
 BIN		= $(ROM).bin
 
 all:	$(BIN)
