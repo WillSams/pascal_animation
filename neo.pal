@@ -1,0 +1,18 @@
+
+pal:
+	dc.w $000
+	dc.w $026
+	dc.w $555
+	dc.w $cc0
+	dc.w $00e
+	dc.w $0ef
+	dc.w $aaa
+	dc.w $fff
+	dc.w $00e
+	dc.w $fff
+	dc.w $000
+	dc.w $000
+	dc.w $000
+	dc.w $000
+	dc.w $000
+	dc.w $000
