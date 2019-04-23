@@ -12,7 +12,7 @@ If you don't have a tool chain installed you can install binutils using [my tool
 or use the [SGDK toolchain][2].  If you are using the SGDK toolchain, just
 modify the GENDEV variable in my makefile to conform to your setup.
 
-[1]: https://gist.github.com/WillSams/76873e3f938dec2929be2ce6a661f782
+[1]: https://gist.github.com/WillSams/ed5d01919095021397fa90e7dfbacb75
 [2]: https://github.com/Stephane-D/SGDK
 [3]: http://segaretro.org/images/7/75/Gens_2.16.7_i386.deb
 
