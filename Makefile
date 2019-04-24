@@ -3,7 +3,7 @@ GENDEV=/opt/m68k
 AS	= $(GENDEV)/bin/m68k-elf-as
 LD	= $(GENDEV)/bin/m68k-elf-ld
 
-DEBUGGER = gens
+DEBUGGER = $(GENDEV)/tools/dgen
 
 ASFLAGS = -m68000 --register-prefix-optional 
 LDFLAGS = -O1 -static -nostdlib  
@@ -27,3 +27,4 @@ $(BIN): $(OBJS)
 
 run:
 	$(DEBUGGER) $(BIN) 
+
