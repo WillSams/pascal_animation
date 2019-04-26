@@ -1,5 +1,5 @@
 
-NeoZee Color Animation Demo by by [Pascal Bosquet][6] 
+NeoZee Color Animation Demo by [Pascal Bosquet][6] 
 ====================================================================================
 Original code can be found here -> (http://www.pascalorama.com/megadrive-m68000-programming/)
 
