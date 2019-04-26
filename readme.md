@@ -5,7 +5,7 @@ Original code can be found here -> (http://www.pascalorama.com/megadrive-m68000-
 
 Just me poking around Pascal Bosquet's code to get this running in GNU Assembly (GAS).  I'm currently learning the M68000 and Mega Drive/Genesis programming, this code just took a bit figuring out how the header should look like and getting the make file just right. I don't see a lot of newer examples online using GAS, figured others would find this useful so I decided to put this on Github.
    
-If you don't have a tool chain installed already, I have a script for [Linux][1] or [Windows][2] to get you set up.  There are also [SGDK][4] or [Marsdev][5] as options if you want to code in C instead of GNU Assembly. 
+If you don't have a tool chain installed already, I have a script for [Linux][1] or [Windows][2] to get you set up.  There are also [SGDK][4] and [Marsdev][5] as options if you want to code in C instead of GNU Assembly. 
 
 For debugging, use [DGen][3].  To install DGen from source, follow these instructions:
 
