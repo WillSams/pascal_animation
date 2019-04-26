@@ -1,5 +1,5 @@
 
-NeoZee Color Animation Demo by by Pascal Bosquet 
+NeoZee Color Animation Demo by by [Pascal Bosquet][6] 
 ====================================================================================
 Original code can be found here -> (http://www.pascalorama.com/megadrive-m68000-programming/)
 
@@ -21,6 +21,7 @@ For debugging, use [DGen][3].  To install DGen from source, follow these instruc
 [3]: http://dgen.sourceforge.net
 [4]: https://github.com/Stephane-D/SGDK
 [5]: https://github.com/andwn/marsdev
+[6]: https://github.com/pascalorama
 
 
 
