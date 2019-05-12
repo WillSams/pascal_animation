@@ -18,7 +18,7 @@ BIN     = $(ROM).bin
 all:	$(BIN) symbols dump
 
 clean: 
-	rm -rf $(BIN) $(shell find . -name '*.o')  && rm -r $(ROM).dump symbols.txt || true
+	rm -rf $(BIN) $(shell find . -name '*.o')  && rm *.elf $(ROM).dump symbols.txt || true
 
 $(BIN): $(OBJS)
 	$(LD) $(LDFLAGS) $< --oformat binary -o $@
@@ -30,9 +30,13 @@ $(BIN): $(OBJS)
 symbols: $(OBJS)
 	$(READELF) --symbols $< > symbols.txt
 
+# We can get more info if we get memory dump from an elf.
 dump: 
-	$(OBJDUMP) --disassemble-all --target=binary --architecture=m68k \
-		--start-address=0x0000 $(BIN) > $(ROM).dump
+	$(OBJCOPY) -B m68k -I binary -O elf32-m68k $(BIN) $(OBJS)
+	$(LD) $(LDFLAGS) $(OBJS) --oformat elf32-m68k -o $(ROM).elf
+	$(OBJDUMP) --disassemble-all --target=elf32-m68k --architecture=m68k:68000 \
+		--start-address=0x0000 --prefix-addresses -l -x $(ROM).elf > $(ROM).dump
+		
 run:
 	$(DEBUGGER) $(BIN)  
 
