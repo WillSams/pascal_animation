@@ -1,10 +1,10 @@
 GENDEV=/opt/toolchains/m68k
 
-AS	= $(GENDEV)/bin/m68k-elf-as
-LD	= $(GENDEV)/bin/m68k-elf-ld
+AS	= $(GENDEV)/bin/m68k-unknown-elf-as
+LD	= $(GENDEV)/bin/m68k-unknown-elf-ld
 
-READELF  = $(GENDEV)/bin/m68k-elf-readelf
-OBJDUMP  = $(GENDEV)/bin/m68k-elf-objdump
+READELF  = $(GENDEV)/bin/m68k-unknown-elf-readelf
+OBJDUMP  = $(GENDEV)/bin/m68k-unknown-elf-objdump
 DEBUGGER = $(GENDEV)/tools/blastem/blastem
 
 ASFLAGS = -m68000 --register-prefix-optional 
