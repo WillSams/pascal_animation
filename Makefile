@@ -1,4 +1,4 @@
-GENDEV=/opt/m68k
+GENDEV=/opt/toolchains/m68k
 
 AS	= $(GENDEV)/bin/m68k-elf-as
 LD	= $(GENDEV)/bin/m68k-elf-ld
